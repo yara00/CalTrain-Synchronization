@@ -1,7 +1,6 @@
 #include <pthread.h>
 
 struct station {
-	// FILL ME IN
     int freeSeats;
     int waitingList;
     pthread_mutex_t mutexTrain;
